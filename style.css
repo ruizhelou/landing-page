@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS for section 1 */
+
+.section-1 {
+    background-color: #1F2937;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.summary {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.summary .content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.summary .content .main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.summary .content .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+.summary .content .sign-up {
+    margin-top: 10px;
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.summary .image-placeholder {
+    display: flex;
+    flex: 1;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS for section 2 */
+
