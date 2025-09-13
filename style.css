@@ -109,3 +109,20 @@ body {
 
 /* CSS for section 3 */
 
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 100px 200px 100px 200px;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-3 .quote-from {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
